@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\j_theocharides\PycharmProjects\Ray_test\venv\lib\site-packages\ray\_private\monitor.py", line 366, in <module>
+    redis_password=args.redis_password)
+  File "C:\Users\j_theocharides\PycharmProjects\Ray_test\venv\lib\site-packages\ray\_private\monitor.py", line 99, in __init__
+    gcs_address = self.redis.get("GcsServerAddress").decode("utf-8")
+AttributeError: 'NoneType' object has no attribute 'decode'

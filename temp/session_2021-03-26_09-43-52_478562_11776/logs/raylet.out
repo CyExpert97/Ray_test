@@ -1,0 +1,60 @@
+[2021-03-26 09:43:56,142 I 24764 24836] io_service_pool.cc:35: IOServicePool is running with 1 io_service.
+[2021-03-26 09:43:58,120 I 24764 24836] store_runner.cc:29: Allowing the Plasma store to use up to 1.11023GB of memory.
+[2021-03-26 09:43:58,120 I 24764 24836] store_runner.cc:42: Starting object store with directory C:\Users\J_THEO~1\AppData\Local\Temp and huge page support disabled
+[2021-03-26 09:43:58,140 I 24764 24836] grpc_server.cc:71: ObjectManager server started, listening on port 54867.
+[2021-03-26 09:43:58,152 I 24764 24836] node_manager.cc:230: Initializing NodeManager with ID b84d4f4e4ae59cea4d43983e68d921714bbf25cade6d43cef79be2b0
+[2021-03-26 09:43:58,156 I 24764 24836] grpc_server.cc:71: NodeManager server started, listening on port 54869.
+[2021-03-26 09:43:58,184 I 24764 20424] agent_manager.cc:76: Monitor agent process with pid 18976, register timeout 30000ms.
+[2021-03-26 09:43:58,194 I 24764 24836] raylet.cc:146: Raylet of id, b84d4f4e4ae59cea4d43983e68d921714bbf25cade6d43cef79be2b0 started. Raylet consists of node_manager and object_manager. node_manager address: 192.168.10.2:54869 object_manager address: 192.168.10.2:54867 hostname: 192.168.10.2
+[2021-03-26 09:43:58,200 I 24764 24836] service_based_accessor.cc:579: Received notification for node id = b84d4f4e4ae59cea4d43983e68d921714bbf25cade6d43cef79be2b0, IsAlive = 1
+[2021-03-26 09:44:00,262 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 3076
+[2021-03-26 09:44:00,272 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 8064
+[2021-03-26 09:44:00,282 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 22924
+[2021-03-26 09:44:00,292 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 12532
+[2021-03-26 09:44:00,302 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 21720
+[2021-03-26 09:44:00,312 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 3796
+[2021-03-26 09:44:00,323 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 25104
+[2021-03-26 09:44:00,336 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 4252
+[2021-03-26 09:44:00,350 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 25264
+[2021-03-26 09:44:00,367 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 4032
+[2021-03-26 09:44:00,383 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 13400
+[2021-03-26 09:44:00,401 I 24764 24836] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 15804
+[2021-03-26 09:44:03,304 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 3948
+[2021-03-26 09:44:03,313 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,313 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,348 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 24812
+[2021-03-26 09:44:03,348 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 4688
+[2021-03-26 09:44:03,352 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,352 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,352 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,352 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,379 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 19304
+[2021-03-26 09:44:03,379 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 20980
+[2021-03-26 09:44:03,383 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,383 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,383 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,383 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,409 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 23228
+[2021-03-26 09:44:03,413 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,413 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,424 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 25148
+[2021-03-26 09:44:03,427 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,427 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,438 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 24424
+[2021-03-26 09:44:03,439 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 20116
+[2021-03-26 09:44:03,442 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,442 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,442 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,442 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,454 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 20436
+[2021-03-26 09:44:03,457 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,457 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,485 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 8620
+[2021-03-26 09:44:03,486 W 24764 24836] worker_pool.cc:418: Received a register request from an unknown worker 17864
+[2021-03-26 09:44:03,493 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,493 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:03,493 I 24764 24836] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:44:03,493 I 24764 24836] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:44:08,225 W 24764 24292] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:44:16,183 W 24764 24292] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:44:26,197 W 24764 24292] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.

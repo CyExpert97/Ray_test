@@ -1,0 +1,161 @@
+[2021-03-26 09:03:23,111 I 22688 17780] io_service_pool.cc:35: IOServicePool is running with 1 io_service.
+[2021-03-26 09:03:25,079 I 22688 17780] store_runner.cc:29: Allowing the Plasma store to use up to 0.911015GB of memory.
+[2021-03-26 09:03:25,079 I 22688 17780] store_runner.cc:42: Starting object store with directory C:\Users\J_THEO~1\AppData\Local\Temp and huge page support disabled
+[2021-03-26 09:03:25,105 I 22688 17780] grpc_server.cc:71: ObjectManager server started, listening on port 65403.
+[2021-03-26 09:03:25,130 I 22688 17780] node_manager.cc:230: Initializing NodeManager with ID 1a258043ed4ab6142b61e37aeb6959126a88dc8705516bb00cc5e64b
+[2021-03-26 09:03:25,134 I 22688 17780] grpc_server.cc:71: NodeManager server started, listening on port 65405.
+[2021-03-26 09:03:25,172 I 22688 22576] agent_manager.cc:76: Monitor agent process with pid 19548, register timeout 30000ms.
+[2021-03-26 09:03:25,190 I 22688 17780] raylet.cc:146: Raylet of id, 1a258043ed4ab6142b61e37aeb6959126a88dc8705516bb00cc5e64b started. Raylet consists of node_manager and object_manager. node_manager address: 192.168.10.2:65405 object_manager address: 192.168.10.2:65403 hostname: 192.168.10.2
+[2021-03-26 09:03:25,197 I 22688 17780] service_based_accessor.cc:579: Received notification for node id = 1a258043ed4ab6142b61e37aeb6959126a88dc8705516bb00cc5e64b, IsAlive = 1
+[2021-03-26 09:03:28,109 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 16680
+[2021-03-26 09:03:28,118 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 20388
+[2021-03-26 09:03:28,128 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 22656
+[2021-03-26 09:03:28,138 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 10840
+[2021-03-26 09:03:28,150 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 22492
+[2021-03-26 09:03:28,160 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 8216
+[2021-03-26 09:03:28,174 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 18488
+[2021-03-26 09:03:28,189 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 17632
+[2021-03-26 09:03:28,204 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 6940
+[2021-03-26 09:03:28,222 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 23792
+[2021-03-26 09:03:28,239 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 24480
+[2021-03-26 09:03:28,254 I 22688 17780] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 10644
+[2021-03-26 09:03:31,449 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 20984
+[2021-03-26 09:03:31,452 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,452 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,479 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 17864
+[2021-03-26 09:03:31,482 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,482 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,575 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 14132
+[2021-03-26 09:03:31,578 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,578 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,591 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 13308
+[2021-03-26 09:03:31,592 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 3320
+[2021-03-26 09:03:31,594 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,594 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,595 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,595 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,606 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 24484
+[2021-03-26 09:03:31,609 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,609 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,622 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 14700
+[2021-03-26 09:03:31,623 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 13820
+[2021-03-26 09:03:31,626 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,626 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,626 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,626 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,636 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 20640
+[2021-03-26 09:03:31,639 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 19556
+[2021-03-26 09:03:31,640 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 19296
+[2021-03-26 09:03:31,640 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,640 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,643 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,643 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,643 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,643 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:31,666 W 22688 17780] worker_pool.cc:418: Received a register request from an unknown worker 20656
+[2021-03-26 09:03:31,670 I 22688 17780] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:03:31,670 I 22688 17780] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:03:35,217 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:03:43,192 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:03:53,796 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:03:55,182 W 22688 17780] agent_manager.cc:82: Agent process with pid 19548 has not registered, restart it.
+[2021-03-26 09:03:55,188 W 22688 22576] agent_manager.cc:92: Agent process with pid 19548 exit, return value 1067
+[2021-03-26 09:03:56,224 I 22688 10376] agent_manager.cc:76: Monitor agent process with pid 9168, register timeout 30000ms.
+[2021-03-26 09:03:58,118 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(16680) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,133 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(20388) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,134 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(22656) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,149 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(10840) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,164 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(22492) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,164 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(8216) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,180 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(18488) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,197 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(17632) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,214 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(6940) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,228 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(23792) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,244 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(24480) have not registered to raylet within timeout.
+[2021-03-26 09:03:58,260 I 22688 17780] worker_pool.cc:315: Some workers of the worker process(10644) have not registered to raylet within timeout.
+[2021-03-26 09:04:03,276 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:04:15,337 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:04:23,368 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:04:26,234 W 22688 17780] agent_manager.cc:82: Agent process with pid 9168 has not registered, restart it.
+[2021-03-26 09:04:26,240 W 22688 10376] agent_manager.cc:92: Agent process with pid 9168 exit, return value 1067
+[2021-03-26 09:04:27,262 I 22688 20636] agent_manager.cc:76: Monitor agent process with pid 24932, register timeout 30000ms.
+[2021-03-26 09:04:33,387 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:04:45,082 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:04:53,501 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:04:57,274 W 22688 17780] agent_manager.cc:82: Agent process with pid 24932 has not registered, restart it.
+[2021-03-26 09:04:57,278 W 22688 20636] agent_manager.cc:92: Agent process with pid 24932 exit, return value 1067
+[2021-03-26 09:04:58,331 I 22688 14360] agent_manager.cc:76: Monitor agent process with pid 32, register timeout 30000ms.
+[2021-03-26 09:05:03,595 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:05:13,586 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:05:23,618 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:05:28,334 W 22688 17780] agent_manager.cc:82: Agent process with pid 32 has not registered, restart it.
+[2021-03-26 09:05:28,340 W 22688 14360] agent_manager.cc:92: Agent process with pid 32 exit, return value 1067
+[2021-03-26 09:05:29,392 I 22688 14272] agent_manager.cc:76: Monitor agent process with pid 22284, register timeout 30000ms.
+[2021-03-26 09:05:33,654 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:05:43,688 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:05:53,711 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:05:59,397 W 22688 17780] agent_manager.cc:82: Agent process with pid 22284 has not registered, restart it.
+[2021-03-26 09:05:59,399 W 22688 14272] agent_manager.cc:92: Agent process with pid 22284 exit, return value 1067
+[2021-03-26 09:06:00,452 I 22688 14592] agent_manager.cc:76: Monitor agent process with pid 14132, register timeout 30000ms.
+[2021-03-26 09:06:03,746 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:06:13,768 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:06:23,797 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:06:30,462 W 22688 17780] agent_manager.cc:82: Agent process with pid 14132 has not registered, restart it.
+[2021-03-26 09:06:30,464 W 22688 14592] agent_manager.cc:92: Agent process with pid 14132 exit, return value 1067
+[2021-03-26 09:06:31,483 I 22688 20636] agent_manager.cc:76: Monitor agent process with pid 3280, register timeout 30000ms.
+[2021-03-26 09:06:33,837 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:06:43,875 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:06:53,924 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:07:01,484 W 22688 17780] agent_manager.cc:82: Agent process with pid 3280 has not registered, restart it.
+[2021-03-26 09:07:01,489 W 22688 20636] agent_manager.cc:92: Agent process with pid 3280 exit, return value 1067
+[2021-03-26 09:07:02,546 I 22688 868] agent_manager.cc:76: Monitor agent process with pid 19916, register timeout 30000ms.
+[2021-03-26 09:07:03,968 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:07:14,005 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:07:24,045 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:07:32,560 W 22688 17780] agent_manager.cc:82: Agent process with pid 19916 has not registered, restart it.
+[2021-03-26 09:07:32,565 W 22688 868] agent_manager.cc:92: Agent process with pid 19916 exit, return value 1067
+[2021-03-26 09:07:33,623 I 22688 14484] agent_manager.cc:76: Monitor agent process with pid 13396, register timeout 30000ms.
+[2021-03-26 09:07:34,087 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:07:44,145 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:07:54,183 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:08:03,633 W 22688 17780] agent_manager.cc:82: Agent process with pid 13396 has not registered, restart it.
+[2021-03-26 09:08:03,637 W 22688 14484] agent_manager.cc:92: Agent process with pid 13396 exit, return value 1067
+[2021-03-26 09:08:04,212 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:08:04,704 I 22688 8792] agent_manager.cc:76: Monitor agent process with pid 25020, register timeout 30000ms.
+[2021-03-26 09:08:14,257 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:08:24,280 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:08:34,310 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:08:34,714 W 22688 17780] agent_manager.cc:82: Agent process with pid 25020 has not registered, restart it.
+[2021-03-26 09:08:34,718 W 22688 8792] agent_manager.cc:92: Agent process with pid 25020 exit, return value 1067
+[2021-03-26 09:08:35,782 I 22688 24068] agent_manager.cc:76: Monitor agent process with pid 19868, register timeout 30000ms.
+[2021-03-26 09:08:44,364 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:08:54,425 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:09:05,326 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:09:05,790 W 22688 17780] agent_manager.cc:82: Agent process with pid 19868 has not registered, restart it.
+[2021-03-26 09:09:05,795 W 22688 24068] agent_manager.cc:92: Agent process with pid 19868 exit, return value 1067
+[2021-03-26 09:09:06,840 I 22688 24568] agent_manager.cc:76: Monitor agent process with pid 920, register timeout 30000ms.
+[2021-03-26 09:09:14,478 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:09:24,516 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:09:34,583 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:09:36,847 W 22688 17780] agent_manager.cc:82: Agent process with pid 920 has not registered, restart it.
+[2021-03-26 09:09:36,854 W 22688 24568] agent_manager.cc:92: Agent process with pid 920 exit, return value 1067
+[2021-03-26 09:09:37,909 I 22688 20712] agent_manager.cc:76: Monitor agent process with pid 17952, register timeout 30000ms.
+[2021-03-26 09:09:44,644 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:09:54,691 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:10:04,717 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:10:07,916 W 22688 17780] agent_manager.cc:82: Agent process with pid 17952 has not registered, restart it.
+[2021-03-26 09:10:07,919 W 22688 20712] agent_manager.cc:92: Agent process with pid 17952 exit, return value 1067
+[2021-03-26 09:10:08,960 I 22688 23720] agent_manager.cc:76: Monitor agent process with pid 8792, register timeout 30000ms.
+[2021-03-26 09:10:14,773 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:10:24,810 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:10:34,865 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:10:38,975 W 22688 17780] agent_manager.cc:82: Agent process with pid 8792 has not registered, restart it.
+[2021-03-26 09:10:38,979 W 22688 23720] agent_manager.cc:92: Agent process with pid 8792 exit, return value 1067
+[2021-03-26 09:10:40,044 I 22688 23320] agent_manager.cc:76: Monitor agent process with pid 19496, register timeout 30000ms.
+[2021-03-26 09:10:44,935 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:10:54,982 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:11:05,026 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:11:10,052 W 22688 17780] agent_manager.cc:82: Agent process with pid 19496 has not registered, restart it.
+[2021-03-26 09:11:10,055 W 22688 23320] agent_manager.cc:92: Agent process with pid 19496 exit, return value 1067
+[2021-03-26 09:11:11,110 I 22688 20004] agent_manager.cc:76: Monitor agent process with pid 21248, register timeout 30000ms.
+[2021-03-26 09:11:15,079 W 22688 23948] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.

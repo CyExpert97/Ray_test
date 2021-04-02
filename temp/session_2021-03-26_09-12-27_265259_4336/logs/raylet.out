@@ -1,0 +1,75 @@
+[2021-03-26 09:12:32,395 I 7600 24804] io_service_pool.cc:35: IOServicePool is running with 1 io_service.
+[2021-03-26 09:12:34,387 I 7600 24804] store_runner.cc:29: Allowing the Plasma store to use up to 0.898725GB of memory.
+[2021-03-26 09:12:34,387 I 7600 24804] store_runner.cc:42: Starting object store with directory C:\Users\J_THEO~1\AppData\Local\Temp and huge page support disabled
+[2021-03-26 09:12:34,407 I 7600 24804] grpc_server.cc:71: ObjectManager server started, listening on port 65185.
+[2021-03-26 09:12:34,416 I 7600 24804] node_manager.cc:230: Initializing NodeManager with ID 7fc11f9c6af9147e43a99988c4146ca6b89dcf44f562970547f9481a
+[2021-03-26 09:12:34,419 I 7600 24804] grpc_server.cc:71: NodeManager server started, listening on port 65187.
+[2021-03-26 09:12:34,436 I 7600 18492] agent_manager.cc:76: Monitor agent process with pid 12236, register timeout 30000ms.
+[2021-03-26 09:12:34,446 I 7600 24804] raylet.cc:146: Raylet of id, 7fc11f9c6af9147e43a99988c4146ca6b89dcf44f562970547f9481a started. Raylet consists of node_manager and object_manager. node_manager address: 192.168.10.2:65187 object_manager address: 192.168.10.2:65185 hostname: 192.168.10.2
+[2021-03-26 09:12:34,453 I 7600 24804] service_based_accessor.cc:579: Received notification for node id = 7fc11f9c6af9147e43a99988c4146ca6b89dcf44f562970547f9481a, IsAlive = 1
+[2021-03-26 09:12:37,433 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 16924
+[2021-03-26 09:12:37,462 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 22688
+[2021-03-26 09:12:37,482 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 18876
+[2021-03-26 09:12:37,494 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 20424
+[2021-03-26 09:12:37,505 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 23068
+[2021-03-26 09:12:37,515 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 17200
+[2021-03-26 09:12:37,526 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 10040
+[2021-03-26 09:12:37,539 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 15704
+[2021-03-26 09:12:37,552 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 21400
+[2021-03-26 09:12:37,567 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 23228
+[2021-03-26 09:12:37,579 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 22060
+[2021-03-26 09:12:37,597 I 7600 24804] worker_pool.cc:289: Started worker process of 1 worker(s) with pid 24944
+[2021-03-26 09:12:40,406 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 25352
+[2021-03-26 09:12:40,413 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,413 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,452 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 12604
+[2021-03-26 09:12:40,459 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,459 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,476 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 18880
+[2021-03-26 09:12:40,482 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,482 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,483 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 18080
+[2021-03-26 09:12:40,487 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,487 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,509 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 10164
+[2021-03-26 09:12:40,512 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,512 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,524 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 19904
+[2021-03-26 09:12:40,528 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,528 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,540 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 24560
+[2021-03-26 09:12:40,543 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,543 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,556 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 24876
+[2021-03-26 09:12:40,559 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,559 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,572 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 19776
+[2021-03-26 09:12:40,575 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,575 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,588 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 24280
+[2021-03-26 09:12:40,591 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,591 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,603 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 24740
+[2021-03-26 09:12:40,604 W 7600 24804] worker_pool.cc:418: Received a register request from an unknown worker 10772
+[2021-03-26 09:12:40,606 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,606 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:40,606 I 7600 24804] node_manager.cc:1106: NodeManager::DisconnectClient, disconnect_type=0, has creation task exception = 0
+[2021-03-26 09:12:40,606 I 7600 24804] node_manager.cc:1120: Ignoring client disconnect because the client has already been disconnected.
+[2021-03-26 09:12:44,491 W 7600 24992] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:12:52,496 W 7600 24992] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:13:04,089 W 7600 24992] metric_exporter.cc:206: Export metrics to agent failed: IOError: 14: failed to connect to all addresses. This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:13:04,444 W 7600 24804] agent_manager.cc:82: Agent process with pid 12236 has not registered, restart it.
+[2021-03-26 09:13:04,448 W 7600 18492] agent_manager.cc:92: Agent process with pid 12236 exit, return value 1067
+[2021-03-26 09:13:05,483 I 7600 17632] agent_manager.cc:76: Monitor agent process with pid 23808, register timeout 30000ms.
+[2021-03-26 09:13:07,444 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(16924) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,475 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(22688) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,491 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(18876) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,506 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(20424) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,506 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(23068) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,521 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(17200) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,537 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(10040) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,553 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(15704) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,553 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(21400) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,569 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(23228) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,584 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(22060) have not registered to raylet within timeout.
+[2021-03-26 09:13:07,600 I 7600 24804] worker_pool.cc:315: Some workers of the worker process(24944) have not registered to raylet within timeout.

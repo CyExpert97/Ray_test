@@ -1,0 +1,4 @@
+2021-03-26 09:03:20,171	INFO monitor.py:353 -- Starting monitor using ray installation: C:\Users\j_theocharides\PycharmProjects\Ray_test\venv\lib\site-packages\ray\__init__.py
+2021-03-26 09:03:20,171	INFO monitor.py:354 -- Ray version: 2.0.0.dev0
+2021-03-26 09:03:20,171	INFO monitor.py:355 -- Ray commit: {{RAY_COMMIT_SHA}}
+2021-03-26 09:03:20,171	INFO monitor.py:356 -- Monitor started with command: ['C:\\Users\\j_theocharides\\PycharmProjects\\Ray_test\\venv\\lib\\site-packages\\ray\\_private\\monitor.py', '--logs-dir=temp\\session_2021-03-26_09-03-18_045793_19780\\logs', '--redis-address=192.168.10.2:6379', '--logging-rotate-bytes=536870912', '--logging-rotate-backup-count=5', '--redis-password=5241590000000000']

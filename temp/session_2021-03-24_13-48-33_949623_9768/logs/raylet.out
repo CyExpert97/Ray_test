@@ -1,0 +1,9 @@
+[2021-03-24 13:48:39,064 I 3092 14612] io_service_pool.cc:35: IOServicePool is running with 1 io_service.
+[2021-03-24 13:48:41,048 I 3092 14612] store_runner.cc:29: Allowing the Plasma store to use up to 1.82633GB of memory.
+[2021-03-24 13:48:41,048 I 3092 14612] store_runner.cc:42: Starting object store with directory C:\Users\J_THEO~1\AppData\Local\Temp and huge page support disabled
+[2021-03-24 13:48:41,071 I 3092 14612] grpc_server.cc:71: ObjectManager server started, listening on port 58369.
+[2021-03-24 13:48:41,090 I 3092 14612] node_manager.cc:230: Initializing NodeManager with ID da85782ea15e5c6ab4eb0e0e0cc9c308c0bff2a542afd431093917f6
+[2021-03-24 13:48:41,094 I 3092 14612] grpc_server.cc:71: NodeManager server started, listening on port 58374.
+[2021-03-24 13:48:41,127 I 3092 10836] agent_manager.cc:76: Monitor agent process with pid 5308, register timeout 30000ms.
+[2021-03-24 13:48:41,137 I 3092 14612] raylet.cc:146: Raylet of id, da85782ea15e5c6ab4eb0e0e0cc9c308c0bff2a542afd431093917f6 started. Raylet consists of node_manager and object_manager. node_manager address: 192.168.10.2:58374 object_manager address: 192.168.10.2:58369 hostname: 192.168.10.2
+[2021-03-24 13:48:41,143 I 3092 14612] service_based_accessor.cc:579: Received notification for node id = da85782ea15e5c6ab4eb0e0e0cc9c308c0bff2a542afd431093917f6, IsAlive = 1

@@ -1,0 +1,79 @@
+NodeManager:
+InitialConfigResources: {node:192.168.10.2: 1.000000}, {CPU: 12.000000}, {GPU: 1.000000}, {memory: 1.674005 GiB}, {object_store_memory: 0.837003 GiB}
+ClusterTaskManager:
+========== Node: 7fc11f9c6af9147e43a99988c4146ca6b89dcf44f562970547f9481a =================
+Infeasible queue length: 0
+Schedule queue length: 0
+Dispatch queue length: 0
+Waiting tasks size: 0
+Number of executing tasks: 0
+Number of pinned task arguments: 0
+cluster_resource_scheduler state: 
+Local id: -7094054858531451001 Local resources: {
+	CPU: ([10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]:[10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000])
+	MEM: ([17974493190000]:[17974493190000])
+	GPU: ([10000]:[10000])
+	OBJECT_STORE_MEM: ([8987246590000]:[8987246590000])
+	1288085920144068591:([10000]:[10000])
+}
+node id: -7094054858531451001 {
+	CPU: (120000:120000)
+	MEM: (17974493190000:17974493190000)
+	GPU: (10000:10000)
+	OBJECT_STORE_MEM: (8987246590000:8987246590000)
+	node:192.168.10.2:(10000:10000)
+}
+
+==================================================
+ClusterResources:
+LocalObjectManager:
+- num pinned objects: 0
+- pinned objects size: 0
+- num objects pending restore: 0
+- num objects pending spill: 0
+- num bytes pending spill: 0
+
+ObjectManager:
+- num local objects: 0
+- num active wait requests: 0
+- num unfulfilled push requests: 0
+- num pull requests: 0
+- num buffered profile events: 0
+- num chunks received total: 0
+- num chunks received failed: 0
+Event loop stats:Stats collection disabled, turn on asio_event_loop_stats_collection_enabled flag to enable event loop stats collection
+PushManager:
+- num pushes in flight: 0
+- num chunks in flight: 0
+- num chunks remaining: 0
+- max chunks allowed: 3518437208473
+OwnershipBasedObjectDirectory:
+- num listeners: 0
+ObjectStoreNotificationManager:
+- num adds processed: 0
+- num removes processed: 0
+BufferPool:
+- get buffer state map size: 0
+- create buffer state map size: 0
+PullManager:
+- num bytes available for pulled objects: 898724659
+- num bytes being pulled: 0
+- num pull request bundles: 0
+- num objects requested pull: 0
+- num objects actively being pulled: 0
+
+WorkerPool:
+- num PYTHON workers: 0
+- num PYTHON drivers: 1
+- num object spill callbacks queued: 0
+- num object restore queued: 0
+- num idle workers: 0
+TaskDependencyManager:
+- task deps map size: 0
+- get req map size: 0
+- wait req map size: 0
+- local objects map size: 0
+num async plasma notifications: 0
+Remote node managers: 
+Event loop stats:Stats collection disabled, turn on asio_event_loop_stats_collection_enabled flag to enable event loop stats collection
+DebugString() time ms: 0

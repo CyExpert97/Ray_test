@@ -1,0 +1,178 @@
+[2021-03-26 08:51:28,304 I 7840 20984] io_service_pool.cc:35: IOServicePool is running with 1 io_service.
+[2021-03-26 08:51:28,311 I 7840 20984] gcs_redis_failure_detector.cc:30: Starting redis failure detector.
+[2021-03-26 08:51:28,311 I 7840 20984] gcs_init_data.cc:44: Loading job table data.
+[2021-03-26 08:51:28,311 I 7840 20984] gcs_init_data.cc:56: Loading node table data.
+[2021-03-26 08:51:28,312 I 7840 20984] gcs_init_data.cc:68: Loading object table data.
+[2021-03-26 08:51:28,312 I 7840 20984] gcs_init_data.cc:81: Loading cluster resources table data.
+[2021-03-26 08:51:28,312 I 7840 20984] gcs_init_data.cc:108: Loading actor table data.
+[2021-03-26 08:51:28,312 I 7840 20984] gcs_init_data.cc:94: Loading placement group table data.
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_init_data.cc:48: Finished loading job table data, size = 0
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_init_data.cc:60: Finished loading node table data, size = 0
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_init_data.cc:73: Finished loading object table data, size = 0
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_init_data.cc:85: Finished loading cluster resources table data, size = 0
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_init_data.cc:112: Finished loading actor table data, size = 0
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_init_data.cc:99: Finished loading placement group table data, size = 0
+[2021-03-26 08:51:28,314 I 7840 20984] gcs_heartbeat_manager.cc:30: GcsHeartbeatManager start, num_heartbeats_timeout=300
+[2021-03-26 08:51:30,324 I 7840 20984] grpc_server.cc:71: GcsServer server started, listening on port 65000.
+[2021-03-26 08:51:30,335 I 7840 20984] gcs_server.cc:270: Gcs server address = 192.168.10.2:65000
+[2021-03-26 08:51:30,336 I 7840 20984] gcs_server.cc:274: Finished setting gcs server address: 192.168.10.2:65000
+[2021-03-26 08:51:30,336 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 0, UnregisterNode request count: 0, GetAllNodeInfo request count: 0, GetInternalConfig request count: 0}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:51:31,812 I 7840 20984] gcs_job_manager.cc:93: Getting all job info.
+[2021-03-26 08:51:31,812 I 7840 20984] gcs_job_manager.cc:99: Finished getting all job info.
+[2021-03-26 08:51:34,159 I 7840 20984] gcs_node_manager.cc:34: Registering node info, node id = 48ab88488942aa23f2eaa1a8fa65db74663f99941424a51f0204fd83, address = 192.168.10.2
+[2021-03-26 08:51:34,160 I 7840 20984] gcs_node_manager.cc:39: Finished registering node info, node id = 48ab88488942aa23f2eaa1a8fa65db74663f99941424a51f0204fd83, address = 192.168.10.2
+[2021-03-26 08:51:34,167 I 7840 20984] gcs_job_manager.cc:93: Getting all job info.
+[2021-03-26 08:51:34,167 I 7840 20984] gcs_job_manager.cc:99: Finished getting all job info.
+[2021-03-26 08:51:37,365 I 7840 20984] gcs_job_manager.cc:26: Adding job, job id = 01000000, driver pid = 21696
+[2021-03-26 08:51:37,366 I 7840 20984] gcs_job_manager.cc:36: Finished adding job, job id = 01000000, driver pid = 21696
+[2021-03-26 08:51:38,396 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:51:48,452 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:51:58,499 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:52:08,538 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:52:18,588 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:52:28,619 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:52:30,349 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 18, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:52:38,669 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:52:48,716 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:52:58,769 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:53:08,806 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:53:18,838 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:53:28,887 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:53:30,355 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 30, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:53:38,952 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:53:48,989 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:53:59,007 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:54:09,051 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:54:19,088 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:54:29,127 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:54:30,359 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 42, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:54:39,216 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:54:49,265 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:54:59,309 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:55:09,346 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:55:19,379 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:55:29,413 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:55:30,363 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 54, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:55:39,456 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:55:49,493 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:55:59,529 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:56:09,560 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:56:19,617 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:56:29,663 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:56:30,363 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 66, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:56:39,724 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:56:49,777 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:56:59,848 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:57:09,873 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:57:19,907 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:57:29,940 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:57:30,372 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 78, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:57:39,977 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:57:50,035 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:58:00,078 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:58:10,130 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:58:20,179 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:58:30,213 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:58:30,383 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 90, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:58:40,259 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:58:50,279 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:59:00,308 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:59:10,347 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:59:20,391 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:59:30,397 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 102, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 08:59:30,429 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:59:40,458 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 08:59:50,483 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:00:00,517 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:00:10,559 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:00:20,589 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:00:30,405 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 114, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 09:00:30,622 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:00:40,665 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:00:50,701 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:01:00,754 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:01:10,803 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:01:20,846 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:01:30,418 I 7840 20984] gcs_server.cc:366: GcsNodeManager: {RegisterNode request count: 1, UnregisterNode request count: 0, GetAllNodeInfo request count: 126, GetInternalConfig request count: 1}
+GcsActorManager: {RegisterActor request count: 0, CreateActor request count: 0, GetActorInfo request count: 0, GetNamedActorInfo request count: 0, KillActor request count: 0, Registered actors count: 0, Destroyed actors count: 0, Named actors count: 0, Unresolved actors count: 0, Pending actors count: 0, Created actors count: 0}
+GcsObjectManager: {GetObjectLocations request count: 0, GetAllObjectLocations request count: 0, AddObjectLocation request count: 0, RemoveObjectLocation request count: 0, Object count: 0}
+GcsPlacementGroupManager: {CreatePlacementGroup request count: 0, RemovePlacementGroup request count: 0, GetPlacementGroup request count: 0, GetAllPlacementGroup request count: 0, WaitPlacementGroupUntilReady request count: 0, Registered placement groups count: 0, Named placement group count: 0, Pending placement groups count: 0}
+GcsPubSub:
+- num channels subscribed to: 0
+- total commands queued: 0
+DefaultTaskInfoHandler: {AddTask request count: 0, GetTask request count: 0, AddTaskLease request count: 0, GetTaskLease request count: 0, AttemptTaskReconstruction request count: 0}
+[2021-03-26 09:01:30,885 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:01:40,926 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:01:50,963 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:02:00,998 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
+[2021-03-26 09:02:11,034 W 7840 23788] metric_exporter.cc:206: Export metrics to agent failed: IOError: 12: . This won't affect Ray, but you can lose metrics from the cluster.
